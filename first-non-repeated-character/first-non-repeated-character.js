@@ -1,7 +1,4 @@
-const FirstNonRepeatedCharacter = function () {
-}
-
-FirstNonRepeatedCharacter.prototype.detect = function (word) {
+const detectFirstNonRepeatedCharacter = function (word) {
   let repetition = 0
 
   for (let i = 0; i < word.length; i++) {
@@ -21,4 +18,4 @@ FirstNonRepeatedCharacter.prototype.detect = function (word) {
   return ''
 }
 
-module.exports = FirstNonRepeatedCharacter
+module.exports = detectFirstNonRepeatedCharacter
