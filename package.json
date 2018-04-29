@@ -55,14 +55,5 @@
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
-  },
-  "jest": {
-    "modulePathIgnorePatterns": [
-      "<rootDir>/tmp/"
-    ],
-    "setupTestFrameworkScriptFile": "jest-extended"
-  },
-  "cacheDirectories": [
-    "node_modules"
-  ]
+  }
 }
