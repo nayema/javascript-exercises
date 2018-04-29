@@ -1,0 +1,3 @@
+# First Non repeater Character
+
+
